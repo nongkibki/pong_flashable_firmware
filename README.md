@@ -7,11 +7,11 @@
 [![Contributors](https://img.shields.io/github/contributors/spike0en/pong_flashable_firmware?logo=github&color=9B5DE5)](https://github.com/spike0en/pong_flashable_firmware/graphs/contributors)
 [![Forks](https://img.shields.io/github/forks/spike0en/pong_flashable_firmware?logo=github&color=468FAF)](https://github.com/spike0en/pong_flashable_firmware/network/members)
 
-## About 
+## About
 
-- This is a collection of flashable firmwares for Nothing Phone (2) aka `Pong`. 
+- This is a collection of flashable firmwares for Nothing Phone (2) aka `Pong`.
 - The firmware images can be flashed by default to both slots, and they can also be targeted towards a single slot (A/B) based on user input using the volume up and down buttons.
-- It supports all regional variants (`IND`/`EEA`/`GLO`) of the device. 
+- It supports all regional variants (`IND`/`EEA`/`GLO`) of the device.
 - The corresponding images have been fetched from [here](https://github.com/spike0en/nothing_archive) and repacked along with the script in a supported flashable template.
 
 ## Use Cases
@@ -22,6 +22,7 @@
 ## Partitions
 
 The following partition images would be flashed to both slots:
+
 ```sh
 `abl`, `aop`, `aop_config`, `bluetooth`, `boot`, `cpucp`, `devcfg`, `dsp`, `dtbo`, `featenabler`, `hyp`, `imagefv`, `keymaster`, `modem`, `multiimgoem`, `multiimgqti`, `qupfw`, `qweslicstore`, `shrm`, `tz`, `uefi`, `uefisecapp`, `vbmeta_system`, `vbmeta_vendor`, `vendor_boot`, `xbl`, `xbl_config`, `xbl_ramdump`
 ```
@@ -36,9 +37,10 @@ The following partition images would be flashed to both slots:
 6. The Firmware flasher will not touch your data partition, so it will not format or modify your data.
 
 ## Download
+
 - Refer to the [releases](https://github.com/spike0en/pong_flashable_firmware/releases) section.
 
-
 ## Credits
+
 - Nixsuki for the initial version of the Oneplus Flashable Firmwares.
 - [WishmasterFlo](https://github.com/Wishmasterflo) for the [Oneplus Firmware Flasher](https://github.com/Wishmasterflo/Firmware_flasher).
