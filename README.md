@@ -12,7 +12,7 @@
 - This is a collection of flashable firmwares for Nothing Phone (2) aka `Pong`.
 - The firmware images can be flashed by default to both slots, and they can also be targeted towards a single slot (A/B) based on user input using the volume up and down buttons.
 - It supports all regional variants (`IND`/`EEA`/`GLO`) of the device.
-- The corresponding images have been fetched from [here](https://github.com/spike0en/nothing_archive) and repacked along with the script in a supported flashable template.
+- The corresponding images have been fetched from [Nothing firmware archive](https://github.com/spike0en/nothing_archive) and repacked along with the script in a supported flashable template.
 
 ## Use Cases
 
